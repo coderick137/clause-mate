@@ -4,7 +4,7 @@ import { TextInput, View } from 'react-native';
 import { Button } from '~/components/Button';
 import { Container } from '~/components/Container';
 
-export default function Details() {
+export default function Chat() {
   return (
     <>
       <Stack.Screen options={{ title: 'Chat' }} />
@@ -15,8 +15,8 @@ export default function Details() {
             className="h-48 w-full rounded-lg border p-4"
           />
           <View className="flex w-full flex-row items-center justify-between">
-            <Button icon="send-sharp" size="lg" iconColor="zinc" />
-            <Button icon="mic" size="md" iconColor="zinc" />
+            <Button icon="send-sharp" size="lg" iconColor="white" />
+            <Button icon="mic" size="md" iconColor="silver" />
           </View>
         </View>
       </Container>

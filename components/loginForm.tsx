@@ -16,11 +16,8 @@ export function LoginForm() {
           <TextInput placeholder="Email" className="rounded-lg border p-4" />
           <TextInput placeholder="Senha" className="rounded-lg border p-4" />
         </View>
-        <Link
-          href={{ pathname: '/details', params: { name: 'Dan' } }}
-          asChild
-          className="mt-8 px-2">
-          <Button title="Entrar" size="lg" />
+        <Link href={{ pathname: '/chat', params: { name: 'Dan' } }} asChild className="mt-8 px-2">
+          <Button title="Entrar" size="full" />
         </Link>
       </View>
       <View className="flex w-full flex-col items-center gap-4 ">

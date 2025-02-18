@@ -34,6 +34,7 @@ export const Button = forwardRef<View, ButtonProps>(
     return (
       <TouchableOpacity
         ref={ref}
+        activeOpacity={0.8}
         {...props}
         className={clsx(
           'items-center rounded-md p-4 active:opacity-90',
@@ -45,7 +46,7 @@ export const Button = forwardRef<View, ButtonProps>(
           },
           {
             'border border-transparent': variant === 'solid',
-            'border border-indigo-500 bg-transparent': variant === 'outline',
+            'border border-zinc-300 bg-transparent': variant === 'outline',
             'bg-transparent': variant === 'ghost',
           },
           disabled ? 'opacity-50' : bgColor,
