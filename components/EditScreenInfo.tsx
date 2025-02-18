@@ -1,9 +1,9 @@
 import { Text, View } from 'react-native';
 
 export const EditScreenInfo = ({ path }: { path: string }) => {
-  const title = 'Open up the code for this screen:';
+  const title = 'Melhore suas avaliações de Processos';
   const description =
-    'Change any of the text, save the file, and your app will automatically update.';
+    'Faça uma perquenta de avaliação de Processos e receba um relatório detalhado de como melhorar suas avaliações.';
 
   return (
     <View>

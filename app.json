@@ -3,8 +3,9 @@
     "name": "clauseMate",
     "slug": "clauseMate",
     "version": "1.0.0",
+    "newArchEnabled": true,
 
-    "scheme": "clauseMate",
+    "scheme": "clause-mate",
     "web": {
       "bundler": "metro",
       "output": "static",
